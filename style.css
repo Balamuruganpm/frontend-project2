@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    width: auto;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right,red,blue);
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    margin-left: 3%;
+    font-family: 'Rubik', sans-serif;
+}
+
+p,ul{
+    font-family: monospace;
+    font-size: 17px;
+    color: azure;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(90, 94, 89, 0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    bottom: 20%;
+    left: 20%;
+    right: 7%;
+    top: 120%;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+
+label{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-top: 2%;
+}
+
+input{
+    color: black;
+    margin-top: 2%;
+    outline: none;
+    margin-bottom: 3%;
+    border-radius: 24px;
+    border: none;
+}
+
+button{
+    width: fit-content;
+}
+
+.usermsg{
+    box-sizing: content-box;
+    box-shadow: inset;
+}
