@@ -2,3 +2,194 @@
 <html lang="en">
 <head>
     <meta 
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Register Page</title>
+
+    
+
+    
+
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+
+    background-color: orange;
+
+    justify-content: center;
+
+    align-content: center;
+
+    }
+
+h1{
+
+    text-align: center;
+
+    letter-spacing: 11px;
+
+    font-family: monospace;
+
+}
+
+    
+
+form{
+
+    display: flex;
+
+    font-family: 'Bebas Neue', cursive;
+
+    flex-direction: column;
+
+    border-radius: 6px;
+
+    background-color: linen;
+
+}
+
+label {
+
+    margin-top: 1em;
+
+    margin-left: 1em;
+
+    margin-bottom: 1em;
+
+}
+
+input {
+
+    outline: none;
+
+    border: none;
+
+    color: black;
+
+    margin-left: 1em;
+
+    border-bottom-color: white;
+
+}
+
+button {
+
+    outline: none;
+
+    border-color: green;
+
+    font-size: 18px;
+
+    border-radius: 3em;
+
+    font-weight: bold;
+
+}
+
+img {
+
+    width:112px; 
+
+    height:114px;
+
+    float: left;
+
+    overflow: none;
+
+}
+
+footer{
+
+    font-family: monospace;
+
+}
+
+    </style>
+
+</head>
+
+<body>
+
+    <img src="pngwing.com.png" alt="logohitler"><br>
+
+    <h1>Hitler Tourism</h1>
+
+    <br><h2>Register</h2>
+
+    <form>
+
+        <label>First Name
+
+            <input type="text" name="firstname" id="firstname" required maxlength="25">
+
+        </label>
+
+        <label>Last Name
+
+            <input type="text" name="lastname" id="lastname" required maxlength="25">
+
+        </label>
+
+        <label>Date of birth 
+
+            <input type="date" id="dob" required>
+
+        </label>
+
+        <label>Email
+
+            <input type="email" id="emailid" required>
+
+        </label>
+
+        <label>Gender
+
+        <input type="radio" name="gender" value="male"> Male 
+
+        <input type="radio" name="gender" value="female"> Female
+
+        <input type="radio" name="gender" value="trans"> Trans
+
+          </label>
+
+        <label>Current Address
+
+            <input type="text" name="address" id="address" rows = "15" cols = "60" style="height : 66px; width : 212px;">
+
+        </label>
+
+        <label>Password
+
+            <input type="password" name="psw" id="psw" required>
+
+        </label>
+
+        <label>ReType Password
+
+            <input type="password" name="psw1" id="psw1" required>
+
+        </label>
+
+        <label>
+
+            <button>Submit</button>
+
+        </label>
+
+    </form><hr>
+
+    <footer>© Hitler Tourism was received a copyright 2023.</footer>
+
+    
+
+</body>
+
+</html>
